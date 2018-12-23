@@ -3,6 +3,6 @@
 ### Docker commands
 $ docker run ...  
 $ docker exec -it {container ID} /bin/bash  
-$ docker container stop {container ID}
+$ docker container stop {container ID}  
 $ docker rm {container ID}  
 
