@@ -17,5 +17,10 @@ $ docker container stop {container ID}
 $ docker rm {container ID}  
 
 // enable bash in alpine distro linux  
-// add this to Dockerfile
-RUN apk add --no-cache bash
+// add this to Dockerfile  
+RUN apk add --no-cache bash  
+
+### Git commands
+
+// commit all modified  
+git commit . -m "description of change"  
