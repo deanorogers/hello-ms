@@ -24,3 +24,17 @@ RUN apk add --no-cache bash
 
 // commit all modified  
 git commit . -m "description of change"  
+
+### Next (micro) task
+1. docker tail stdout
+2. tail stdout
+
+### Completed tasks
+1. Setup development environment including Java8, Maven and git  
+2. Git clone hello-ms, build and run locally  
+3. Install Atom editor  
+4. Install Docker (unlike Windows, without VM)  
+5. Alter Dockerfile of hello-ms to use Java8  
+6. Build and run Docker images  
+7. Alter Dockerfile to install bash in container (doesn't ship with Alpine)  
+8. Run container in detached mode and connect using Docker exec -it ...  
