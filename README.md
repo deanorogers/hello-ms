@@ -1,6 +1,11 @@
 # hello-ms
 ## Simple Hello World REST service
 ### Docker commands
+
+// build image with name and tag
+docker rmi {image name}
+docker build . -t spring-boot-server:latest
+
 // run container in background mode  
 $ docker run -d -p 8080:8080 spring-boot-server  
 
@@ -38,3 +43,4 @@ git commit . -m "description of change"
 6. Build and run Docker images  
 7. Alter Dockerfile to install bash in container (doesn't ship with Alpine)  
 8. Run container in detached mode and connect using Docker exec -it ...  
+9. Added logback-spring.xml. Deps already present in Spring. Run server in sudo mode to have permission to write to /var/log.
