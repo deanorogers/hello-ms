@@ -34,7 +34,10 @@ RUN apk add --no-cache bash
 git commit . -m "description of change"  
 
 ### Next (micro) task
-1. Add unit tests to build and test in Jenkins pipeline (triggered). 
+1. Add unit tests to build and test in Jenkins pipeline (triggered).
+2. Dockerise. 
+3. Build image as part of pipeline.
+4. Start container ready for functional testing.
 
 ### Completed tasks
 1. Setup development environment including Java8, Maven and git  
