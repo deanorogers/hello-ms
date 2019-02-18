@@ -34,7 +34,7 @@ RUN apk add --no-cache bash
 git commit . -m "description of change"  
 
 ### Next (micro) task
-1. install NodeJS to serve static file  
+1. Add unit tests to build and test in Jenkins pipeline (triggered). 
 
 ### Completed tasks
 1. Setup development environment including Java8, Maven and git  
