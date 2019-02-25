@@ -5,6 +5,15 @@ import org.slf4j.LoggerFactory;
 
 public class Article {
 
+    public Article () {
+      super();
+    }
+
+    public Article (short id, String title) {
+      this.id = id;
+      this.title = title;
+    }
+
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private short id;
@@ -24,6 +33,10 @@ public class Article {
 
     public void setTitle ( String title) {
       this.title = title;
+    }
+
+    public String getTitleInLowerCase () {
+      return title.toLowerCase();
     }
 
 }

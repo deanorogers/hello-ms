@@ -34,10 +34,9 @@ RUN apk add --no-cache bash
 git commit . -m "description of change"  
 
 ### Next (micro) task
-1. Add unit tests to build and test in Jenkins pipeline (triggered).
-2. Dockerise. 
-3. Build image as part of pipeline.
-4. Start container ready for functional testing.
+1. Dockerise.
+2. Build image as part of pipeline.
+3. Start container ready for functional testing within pipeline
 
 ### Completed tasks
 1. Setup development environment including Java8, Maven and git  
@@ -51,3 +50,4 @@ git commit . -m "description of change"
 9. Added logback-spring.xml. Deps already present in Spring. Run server in sudo mode to have permission to write to /var/log.  
 10. Then run in docker container and docker tail stdout.
 11. Install (local) Jenkins and configure compile job.
+12. Add unit tests to build and test in Jenkins pipeline (triggered).
