@@ -49,5 +49,5 @@ git commit . -m "description of change"
 8. Run container in detached mode and connect using Docker exec -it ...  
 9. Added logback-spring.xml. Deps already present in Spring. Run server in sudo mode to have permission to write to /var/log.  
 10. Then run in docker container and docker tail stdout.
-11. Install (local) Jenkins and configure compile job.
+11. Install (local) Jenkins and configure compile job (admin/password).
 12. Add unit tests to build and test in Jenkins pipeline (triggered).
