@@ -51,3 +51,10 @@ git commit . -m "description of change"
 10. Then run in docker container and docker tail stdout.
 11. Install (local) Jenkins and configure compile job (admin/password).
 12. Add unit tests to build and test in Jenkins pipeline (triggered).
+
+### Jenkins
+1. sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist -- stop
+2. sudo launchct load /Library/LaunchDaemons/org.jenkins-ci.plist -- start
+3. https://wiki.jenkins.io/display/JENKINS/Thanks+for+using+OSX+Installer
+4. defaults read /Library/Preferences/org.jenkins-ci [httpPort]
+5. default write /Library/Preferences/org.jenkins-ci  httpPort 9090
